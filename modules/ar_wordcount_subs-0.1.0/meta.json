@@ -3,10 +3,13 @@
     "lang": "ar",
     "version": "0.1.0",
     "source_class": "WordCountSource",
-    "compatible_models": ["RandomModel", "SequentialModel"],
-    "description": "%0k Arabic works from Hermit Dave's Word Frequency repo",
+    "compatible_models": [
+        "RandomModel",
+        "SequentialModel"
+    ],
+    "description": "50k Arabic works from Hermit Dave's Word Frequency repo",
     "wordsiv_version": ">=0.1.0",
-    "author": "José Solé",
+    "author": "Jose Sole",
     "email": "type@jmsole.cl",
     "url": "https://github.com/jmsole",
     "license": "CC-by-sa-4.0"
