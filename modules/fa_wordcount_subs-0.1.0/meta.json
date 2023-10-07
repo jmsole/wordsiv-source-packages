@@ -1,13 +1,13 @@
 {
-    "name": "ar_wordcount_subs",
-    "lang": "ar",
+    "name": "fa_wordcount_subs",
+    "lang": "fa",
     "version": "0.1.0",
     "source_class": "WordCountSource",
     "compatible_models": [
         "RandomModel",
         "SequentialModel"
     ],
-    "description": "50k Arabic words from Hermit Dave's Word Frequency repo",
+    "description": "50k Farsi words from Hermit Dave's Word Frequency repo",
     "wordsiv_version": ">=0.1.0",
     "author": "Jose Sole",
     "email": "type@jmsole.cl",
