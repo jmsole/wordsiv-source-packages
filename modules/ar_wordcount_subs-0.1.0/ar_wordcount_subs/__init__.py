@@ -17,15 +17,15 @@ with open(HERE / "meta.json", "r") as f:
 # Sources should always be prefixed with the package name
 # as they will be merged into a common namespace
 sources = {
-    "en_wordcount_web": {
+    "ar_wordcount_subs": {
         "source": WordCountSource(HERE / "data" / "data.lfs.txt", meta, 50000),
         "default_model_class": RandomModel,
     },
-    "en_wordcount_web_sm": {
+    "ar_wordcount_subs_sm": {
         "source": WordCountSource(HERE / "data" / "data.lfs.txt", meta, 10000),
         "default_model_class": RandomModel,
     },
-    "en_wordcount_web_lg": {
+    "ar_wordcount_subs_lg": {
         "source": WordCountSource(HERE / "data" / "data.lfs.txt", meta),
         "default_model_class": RandomModel,
     },
