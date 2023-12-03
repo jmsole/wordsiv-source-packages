@@ -1,0 +1,16 @@
+{
+    "name": "es_wordcount_subs",
+    "lang": "es",
+    "version": "0.1.0",
+    "source_class": "WordCountSource",
+    "compatible_models": [
+        "RandomModel",
+        "SequentialModel"
+    ],
+    "description": "From Leipzig Corpora, Wikipedia words 100k 2021",
+    "wordsiv_version": ">=0.1.0",
+    "author": "Jose Sole",
+    "email": "type@jmsole.cl",
+    "url": "https://github.com/jmsole",
+    "license": "From Leipzig Corpora, Wikipedia words 100k 2021"
+}
